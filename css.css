@@ -1,0 +1,305 @@
+body
+{
+	background-attachment: fixed;
+}
+
+#header
+{
+	width: 100%;
+	height: 100px;
+}
+
+#logo
+{
+	height: 20%;
+	width: 20%;
+	float: left;
+}
+
+#banner
+{
+	height: 100%;
+	width: 80%;
+	font-family: 'Acme', sans-serif;
+	color: red;
+	font-style: italic;
+	font-size: 35px;
+	float: left;
+}
+
+#yazi1
+{
+	color: #ffffff;
+	font-size: 50px; 
+  font-family: 'Corinthia', cursive;
+}
+
+#cssmenu 
+{
+  background: rgba(111, 21, 108,0.3);
+  border-radius: 5px;
+  width: 100%;
+}
+
+#cssmenu ul 
+{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  display: block;
+  zoom: 1;
+}
+
+#cssmenu ul li 
+{
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+}
+
+#cssmenu.align-right ul li 
+{
+  float: right;
+}
+
+#cssmenu.align-center ul 
+{
+  text-align: center;
+}
+
+#cssmenu ul li a 
+{
+  color: #ffffff;
+  text-decoration: none;
+  display: block;
+  padding: 15px 25px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 14px;
+  position: relative;
+  -webkit-transition: color .25s;
+  -moz-transition: color .25s;
+  -ms-transition: color .25s;
+  -o-transition: color .25s;
+  transition: color .25s;
+}
+
+@media screen and (max-width: 768px) 
+{
+	#cssmenu ul li {
+    float: none;
+    display: block;
+  } 
+}
+#cssmenu ul li a {
+    width: 100%;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border-bottom: 1px solid #fb998c;
+}
+.slider-holder
+        {
+            width: 800px;
+            height: 400px;
+            background-color: yellow;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 0px;
+            text-align: center;
+            overflow: hidden;
+        }
+        
+        .image-holder
+        {
+            width: 6400px;
+            background-color: red;
+            height: 400px;
+            clear: both;
+            position: relative;
+            
+            -webkit-transition: left 2s;
+            -moz-transition: left 2s;
+            -o-transition: left 2s;
+        }
+        
+        .slider-image
+        {
+            float: left;
+            margin: 0px;
+            padding: 0px;
+            position: relative;
+        }
+        
+        #slider-image-1:target ~ .image-holder
+        {
+            left: 0px;
+        }
+        
+        #slider-image-2:target ~ .image-holder
+        {
+            left: -800px;
+        }
+        
+        #slider-image-3:target ~ .image-holder
+        {
+            left: -1600px;
+        }
+
+        #slider-image-4:target ~ .image-holder
+        {
+            left: -2400px;
+        }
+
+        #slider-image-5:target ~ .image-holder
+        {
+            left: -3200px;
+        }
+
+        #slider-image-6:target ~ .image-holder
+        {
+            left: -4000px;
+        }
+
+        #slider-image-7:target ~ .image-holder
+        {
+            left: -4800px;
+        }
+
+        #slider-image-8:target ~ .image-holder
+        {
+            left: -5600px;
+        }
+
+        .button-holder
+        {
+            position: relative;
+            top: -20px;
+        }
+        
+        .slider-change
+        {
+            display: inline-block;
+            height: 10px;
+            width: 10px;
+            border-radius: 5px;
+            background-color: white;
+        }
+#logo1
+{
+    width: 200px;
+    height: 200px;
+}
+
+#logo11
+{
+    width: 200px;
+    height: 200px;
+    margin: auto;
+}
+
+.yazı
+{   
+    width: 950px;
+    height: 350px;
+    font-size: 30px;
+	color: rgb(111, 21, 108);
+	text-align: center;
+    margin: auto;
+    font-family: 'Indie Flower', cursive;
+}
+
+.baslık
+{
+	font-size: 45px;
+	color: red;
+	text-align: center;
+}
+
+#fotog
+{
+	width: 1000px;
+	height: 560px;
+	margin: auto;
+}
+
+#rlink
+{
+	margin: auto;
+}
+
+.button {
+
+  display: inline-block;
+
+  padding: 15px 25px;
+
+  font-size: 24px;
+
+  cursor: pointer;
+
+  text-align: center;
+
+  text-decoration: none;
+
+  outline: none;
+
+  color: #000;
+
+  background-color:#6f156c;
+
+  border: none;
+
+  border-radius: 15px;
+
+  box-shadow: 0 9px #999;
+}
+
+.button:hover {background-color: #00ffff}
+
+.button:active {
+
+  background-color: #3e8e41;
+
+  box-shadow: 0 5px #666;
+
+  transform: translateY(4px);
+}
+
+#ifoto
+{
+    width: 350px;
+    height: 200px;
+    margin-left: 5%;
+    float: left;
+    margin-left: 1100px;
+}
+
+#i1foto
+{
+    width: 350px;
+    height: 200px;
+    margin-left: 5%;
+    margin-top: 10%;
+    float: left;
+}
+
+#resim
+{
+    width: 500px;
+    height: 900px;
+    margin: auto;
+}
+#map 
+{
+    margin-left: 26%;
+}
+
+#mapisim
+{
+    font-size: 40px;
+    text-align: center;
+    color: gray;
+}
